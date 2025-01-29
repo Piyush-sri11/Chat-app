@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Fixed Navbar -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="nav-left">
+                <button id="menuToggle" class="menu-button">
+                <i class="fas fa-bars" style="font-size: 24px;"></i>  
+                </button>
+                <h1>Dashboard</h1>
+            </div>
+            <div class="nav-right">
+                <button class="icon-button">
+                    <i class="fas fa-bell" style="font-size: 24px;"></i>
+                </button>
+                <button class="icon-button">
+                    <i class="fas fa-cog" style="font-size: 24px;"></i>
+                </button>
+                <button class="icon-button">
+                    <i class="fas fa-user" style="font-size: 24px;"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Layout -->
+    <div class="layout">
+        <!-- Left Menu -->
+        <aside class="sidebar" id="sidebar">
+            <button id="closeMenu" class="close-button">×</button>
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-item">Dashboard</a>
+                <a href="#" class="nav-item">Projects</a>
+                <a href="#" class="nav-item">Tasks</a>
+                <a href="#" class="nav-item">Calendar</a>
+                <a href="#" class="nav-item">Reports</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content" id="mainContent">
+            <div class="container">
+                <div class="grid">
+                    <!-- Main Content Area -->
+                    <div class="main-area">
+                        <div class="card">
+                            <h2>Welcome Back!</h2>
+                            <p>This is your main dashboard area. Here you can see all your important information and recent activities.</p>
+                            <div class="card-grid">
+                                <div class="mini-card">
+                                    <h3>Card 1</h3>
+                                    <p>Sample content for card 1</p>
+                                </div>
+                                <div class="mini-card">
+                                    <h3>Card 2</h3>
+                                    <p>Sample content for card 2</p>
+                                </div>
+                                <div class="mini-card">
+                                    <h3>Card 3</h3>
+                                    <p>Sample content for card 3</p>
+                                </div>
+                                <div class="mini-card">
+                                    <h3>Card 4</h3>
+                                    <p>Sample content for card 4</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Panel -->
+                    <div class="right-panel">
+                        <div class="sticky-content">
+                            <div class="card">
+                                <h3>Recent Activities</h3>
+                                <div class="activity-list">
+                                    <div class="activity-item">
+                                        <div class="activity-dot"></div>
+                                        <div class="activity-content">
+                                            <p>Activity 1</p>
+                                            <small>2 hours ago</small>
+                                        </div>
+                                    </div>
+                                    <div class="activity-item">
+                                        <div class="activity-dot"></div>
+                                        <div class="activity-content">
+                                            <p>Activity 2</p>
+                                            <small>2 hours ago</small>
+                                        </div>
+                                    </div>
+                                    <div class="activity-item">
+                                        <div class="activity-dot"></div>
+                                        <div class="activity-content">
+                                            <p>Activity 3</p>
+                                            <small>2 hours ago</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Dashboard</h3>
+                    <p>© 2024 All rights reserved</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
