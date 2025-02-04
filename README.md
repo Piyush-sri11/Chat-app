@@ -4,10 +4,18 @@
 This is a real-time chat application built using Django and Django Channels. It supports user authentication, real-time messaging, and a simple user interface for chatting.
 
 ## Screenshots
-- **Login Page**: ![Login Page](login.png)
-- **Registration Page**: ![Registration Page](register.png)
-- **Home Page**: ![Home Page](home.png)
-- **Chat Page**: ![Chat Page](chat.png)
+- **Login Page**: 
+    
+    ![Login Page](login.png)
+
+- **Registration Page**: 
+    ![Registration Page](register.png)
+
+- **Home Page**: 
+![Home Page](home.png)
+
+- **Chat Page**: 
+![Chat Page](chat.png)
 
 ## Technologies Used
 - **Django**: Backend framework for handling user authentication and database management.
@@ -33,7 +41,7 @@ This is a real-time chat application built using Django and Django Channels. It 
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
-    
+
 3. **Install the required packages:**
         ```sh
         pip install -r requirements.txt
